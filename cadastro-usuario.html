@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Usuário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card split">
+    <aside class="brand-panel">
+      <div class="lock">👤</div>
+      <h2>Criar conta</h2>
+      <p>Preencha os dados ao lado para começar a usar o sistema.</p>
+    </aside>
+
+    <section class="card-body">
+      <form action="#" method="post">
+        <div class="grid">
+          <div class="field">
+            <label for="nome_completo">Nome Completo</label>
+            <input type="text" name="nome_completo" id="nome_completo">
+          </div>
+          <div class="field">
+            <label for="email">Cadastrar E-mail</label>
+            <input type="email" name="email" id="email">
+          </div>
+          <div class="field">
+            <label for="senha">Cadastrar Senha</label>
+            <input type="password" name="senha" id="senha">
+          </div>
+          <div class="field">
+            <label for="confirmar_senha">Confirmar Senha</label>
+            <input type="password" name="confirmar_senha" id="confirmar_senha">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Criar</button>
+      </form>
+      <p class="helper">Já tem conta? <a class="link" href="login.html">Acesse a tela de Login</a></p>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Nota</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <header class="card-header">
+      <h1>Cadastro da Nota</h1>
+      <span class="badge">NOTA</span>
+    </header>
+    <div class="card-body">
+      <form action="#" method="post">
+        <div class="grid">
+          <div class="field">
+            <label for="codigo_nota">Código</label>
+            <input type="text" name="codigo_nota" id="codigo_nota">
+          </div>
+          <div class="field">
+            <label for="data_emissao">Data de Emissão</label>
+            <input type="date" name="data_emissao" id="data_emissao">
+          </div>
+          <div class="field">
+            <label for="valor_total">Valor Total</label>
+            <input type="number" name="valor_total" id="valor_total" step="0.01" min="0">
+          </div>
+          <div class="field">
+            <label for="data_envio">Data de Envio</label>
+            <input type="date" name="data_envio" id="data_envio">
+          </div>
+          <div class="field full">
+            <label for="cnpj">CNPJ</label>
+            <input type="text" name="cnpj" id="cnpj" placeholder="00.000.000/0000-00">
+          </div>
+        </div>
+        <div class="actions">
+          <a href="home.html" class="btn btn-secondary">Menu</a>
+          <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

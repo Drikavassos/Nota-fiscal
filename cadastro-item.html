@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Item da Nota</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <header class="card-header">
+      <h1>Produto</h1>
+      <span class="badge">ITEM DA NOTA</span>
+    </header>
+    <div class="card-body">
+      <form action="#" method="post">
+        <div class="with-image">
+          <div class="image-box">
+            <span class="icon">🖼️</span>
+            <span>A imagem do produto aparecerá aqui</span>
+          </div>
+          <div class="grid">
+            <div class="field">
+              <label for="codigo_produto">Código Produto</label>
+              <input type="text" name="codigo_produto" id="codigo_produto">
+            </div>
+            <div class="field">
+              <label for="codigo_nota">Código Nota</label>
+              <input type="text" name="codigo_nota" id="codigo_nota">
+            </div>
+            <div class="field">
+              <label for="quantidade_produto">Quantidade Produto</label>
+              <input type="number" name="quantidade_produto" id="quantidade_produto" min="1">
+            </div>
+            <div class="field">
+              <label for="valor_unitario">Valor Unitário</label>
+              <input type="number" name="valor_unitario" id="valor_unitario" step="0.01" min="0">
+            </div>
+          </div>
+        </div>
+        <div class="actions">
+          <a href="home.html" class="btn btn-secondary">Menu</a>
+          <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

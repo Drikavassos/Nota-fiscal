@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Produto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <header class="card-header">
+      <h1>Cadastro do Produto</h1>
+      <span class="badge">PRODUTO</span>
+    </header>
+    <div class="card-body">
+      <form action="#" method="post">
+        <div class="with-image">
+          <div class="image-box">
+            <span class="icon">🖼️</span>
+            <span>Coloque a imagem do produto aqui</span>
+            <input type="file" name="imagem_produto" id="imagem_produto" accept="image/*">
+          </div>
+          <div class="grid">
+            <div class="field">
+              <label for="nome_produto">Nome do Produto</label>
+              <input type="text" name="nome_produto" id="nome_produto">
+            </div>
+            <div class="field">
+              <label for="valor_unitario">Valor Unitário</label>
+              <input type="number" name="valor_unitario" id="valor_unitario" step="0.01" min="0">
+            </div>
+          </div>
+        </div>
+        <div class="actions">
+          <a href="home.html" class="btn btn-secondary">Menu</a>
+          <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
